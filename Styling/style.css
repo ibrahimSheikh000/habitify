@@ -1,0 +1,380 @@
+/* Navbar background color and overall styling */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd; 
+}
+
+/* Logo image customization */
+.navbar-brand img {
+    height: 50px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500 !important; 
+    color: rgba(0, 0, 0, 0.799) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff !important; 
+}
+
+
+.navbar-nav .nav-link.dropdown-toggle {
+    font-weight: 700; 
+    color: #343a40; 
+}
+
+
+.btn-outline-secondary {
+    color: black;
+    border-color: #e3dddd;
+    padding: 10px 20px; 
+    font-size: 1.1rem; 
+}
+
+.btn-outline-secondary:hover {
+    color: #007bff;
+    background-color: #e3dddd; 
+    border-color: #e3dddd;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px; 
+    font-size: 1.1rem; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #343a40;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff; 
+    color: #fff;
+}
+/* Hero heading styling */
+.hero-heading {
+    margin-top: 4rem;
+    font-size: 4.3rem;
+    font-weight: 700;
+    color: black;
+}
+
+/* Hero subtext styling */
+.hero-subtext {
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+/* Button styling */
+.btn-habitify {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.btn-habitify:hover {
+    color: white;
+    background-color: #3367d6; 
+    border-color: #3367d6;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.ratings > div {
+    text-align: left;
+    ;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.app_of_the_day img {
+    width: 250px;
+    margin-bottom: 5rem;
+}
+
+.app-preview img {
+    margin-top: 5;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.app-preview img {
+    width: 100%; 
+    max-width: 1100px;
+    max-height: 1300px;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.organize-execute {
+    margin-top: 0rem;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    display: flex; /* Add display: flex to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.organize-execute .row {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the row takes up the full width */
+}
+
+.organize-execute h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.logo {
+    margin-bottom: 15px;
+  }
+.organize-execute p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: 20px; /* Add a left margin to create space between the logo and text */
+    max-width: 700px;
+}
+
+
+/* General card styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.schedule {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.section-header {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.morning .section-header { background-color: #2196F3; }
+.noon .section-header { background-color: #FF9800; }
+.night .section-header { background-color: #9C27B0; }
+
+.item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.item-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-time {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.organize-execute {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.schedule-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.progress-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #e1ebf7, #f6f2ff);
+    border-radius: 100px; 
+}
+
+.progress-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.progress-section p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.screenshot-section {
+    padding: 40px 20px;
+}
+
+.screenshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screenshot-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.screenshot-column {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.screenshot-column img {
+    width: 100%;
+    border-radius: 500px;
+}
+
+
+.challenges-section {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Change background as per your need */
+  }
+  
+  .challenges-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Row Styling */
+  .challenges-section .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .challenges-section .logo {
+    margin-top: 10rem;
+    margin-bottom: 20px;
+  }
+  
+  .challenges-section .logo img {
+    width: 200px; /* Modify logo size */
+    height: auto;
+  }
+  
+  .challenges-section h2.heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: Black; /* Modify heading color */
+    margin-bottom: 10px;
+  }
+  
+  .challenges-section h2.subheading {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 128, 0); /* Modify subheading color */
+    margin-bottom: 20px;
+  }
+  
+  .challenges-section p {
+    font-size: 18px;
+    color: black; /* Modify paragraph text color */
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .challenges-section p strong {
+    color: #000; /* Make strong text bold and black */
+    
+  }
+
+  .challenges-section .right-img {
+    text-align: center;
+  }
+  
+  .challenges-section .right-img img {
+    width: 100%; /* Make image responsive */
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; 
+    margin-top: 5rem;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .challenges-section .row {
+      flex-direction: column;
+    }
+  
+    .challenges-section .right-img img {
+      max-width: 300px;
+    }
+  }
+  
+  .feature-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the content within the card */
+}
+
+.feature-card img {
+    max-width: 100%; /* Ensure the logo doesn't exceed the card's width */
+    height: auto;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+}
