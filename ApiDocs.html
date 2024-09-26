@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - Habitify</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styling/ApiDocs.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="d-flex align-items-center justify-content-between py-2 border-bottom">
+            <img src="./images/image.avif" alt="Logo" style="height: 50px;"> 
+            <h1 class="h4">API Documentation</h1>
+            <div class="search-container d-flex align-items-center">
+                <input type="search" class="form-control" placeholder="Search" />
+            </div>
+        </header>
+        
+        <div class="row mt-4">
+            <!-- Navbar section (left side) -->
+            <div class="col-md-4">
+                <div class="content">
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item active">Getting Started</li>
+                            <li class="list-group-item">Changelog</li>
+                            <li class="list-group-item">Authentication</li>
+                            <li class="list-group-item">Date Format</li>
+                            <li class="list-group-item">Response API</li>
+                            <li class="list-group-item active">CORE RESOURCES</li>
+                            <li class="list-group-item">Journal</li>
+                            <li class="list-group-item">Habits</li>
+                            <li class="list-group-item">Actions List</li>
+                            <li class="list-group-item">Notes</li>
+                            <li class="list-group-item">Moods</li>
+                            <li class="list-group-item">Areas</li>
+                            <li class="list-group-item active">ENUM</li>
+                            <li class="list-group-item">Action Status</li>
+                            <li class="list-group-item">Mood Value</li>
+                            <li class="list-group-item">Note Type</li>
+                            <li class="list-group-item">Unit Type</li>
+                            <li class="list-group-item">Log Method</li>
+                            <li class="list-group-item">Time of Day</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    
+            <div class="col-md-8">
+                <main>
+                    <h2>Getting Started</h2>
+                    <p>This is the official documentation for Habitify API. A reference to the functionality our public API provides with detailed descriptions of each API endpoint, parameters, and examples.</p>
+                    
+                    <p>Habitify API is organized around <a href="#">REST</a>. Our API has predictable resource-oriented URLs, returns <a href="#">JSON-encoded</a> responses, and uses standard HTTP response codes, authentication, and verbs.</p>
+                    
+                    <p>To get started, you should continue with the <a href="#">Authentication</a> to learn all the details on the best way to authenticate to our server.</p>
+                    
+                    <h2>Base URL</h2>
+                    <code>https://api.habitify.me</code>
+    
+                    <div class="feedback mt-4">
+                        <p>Was this helpful?</p>
+                        <div class="btn-group" role="group">
+                            <button class="btn btn-light">😞</button>
+                            <button class="btn btn-light">😐</button>
+                            <button class="btn btn-light">😃</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
